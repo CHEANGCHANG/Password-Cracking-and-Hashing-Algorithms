@@ -1,0 +1,6 @@
+Using Hashcat
+
+⚙️ Example: Cracking a SHA1 hash
+bash
+
+hashcat -m 100 -a 0 hashes.txt rockyou.txt
