@@ -1,0 +1,15 @@
+Using John the Ripper
+🗂️ Input Format (example: passwords.txt)
+perl
+
+user1:$6$rounds=5000$abc123$HhaFpHTmYeCRUMD2rw4I1Hk1oT1kDh31BLCnU/
+
+▶️ Crack the Hash
+bash
+
+john --wordlist=rockyou.txt passwords.txt
+
+🔍 Show Results
+bash
+
+john --show passwords.txt
